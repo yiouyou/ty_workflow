@@ -1,0 +1,39 @@
+{
+  "pre_+_prompt": "<lora:tykoala:0.8>, tykoala, bright color",
+  "pre_-_prompt": "",
+
+  "basic_payload": {
+    "denoising_strength": 0.95,
+    "sampler_name": "Euler a",
+    "sampler_index": "Euler a",
+    "steps": 20,
+    "n_iter": 1,
+    "batch_size": 1,
+    "cfg_scale": 11,
+    "styles": []
+  },
+
+  "t2i_width": 976,
+  "t2i_height": 512,
+
+  "models_sd1x": {
+    "sd1": ["sd1\\sd15-pruned-ema.ckpt", ""]
+  },
+
+  "models_sd2x": {
+  },
+
+  "models_sd1x_lora": {
+    "多彩": 0,
+    "线稿": 0,
+    "大头3D": 0,
+    "大头2D": 0,
+    "玻璃": 0,
+    "温暖": 0,
+    "矢量艺术": 0,
+    "线条阴影": 0,
+    "土豆泥": 0,
+    "猫眼圆手": 0,
+    "定格3D": 0
+  }
+}

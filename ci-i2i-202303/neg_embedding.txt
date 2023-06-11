@@ -1,0 +1,1 @@
+bad-hands-5, easynegative, bad_prompt, bad_prompt_version2, bad-artist, bad-artist-anime, bad-image-v2-39000, ng_deepnegative_v1_75t

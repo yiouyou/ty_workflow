@@ -1,0 +1,51 @@
+{
+  "pre_+_prompt": "for kids, best quality, high detail, sharp focus, 8k, gigapixel",
+  "pre_-_prompt": "text, nfsw, nude, naked, blurry, out of focus, ugly, deformed, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, missing limb, floating limbs, disconnected limbs, malformed hands, mutated hands, poorly drawn hands, fused fingers, too many fingers, extra fingers, (((mutated hands and fingers))), long neck, (((out of frame)))",
+
+  "basic_payload": {
+    "denoising_strength": 0.75,
+    "sampler_name": "Euler a",
+    "sampler_index": "Euler a",
+    "steps": 30,
+    "n_iter": 1,
+    "batch_size": 1,
+    "cfg_scale": 7,
+    "styles": []
+  },
+
+  "t2i_width": 976,
+  "t2i_height": 512,
+
+  "models_sd1x": {
+    "aom3": ["aom3\\aom3.safetensors", ""],
+    "ay4": ["ay4\\ay4.5-pruned.ckpt", ""],
+    "d2": ["d2\\d_v2.safetensors", ""],
+    "d11": ["d11\\d_v11.ckpt", ""],
+    "dlpr20": ["dlpr20\\dlpr20.safetensors", ""],
+    "ds4": ["ds332\\ds_4Baked16.safetensors", ""],
+    "ds332": ["ds332\\ds_332Baked.ckpt", ""],
+    "gbl": ["gbl\\gbl_v1.ckpt", "ghibli style"],
+    "md1": ["md1\\md_v1.ckpt", "modern disney style"],
+    "ned": ["ned\\ned_bakedVae.safetensors", ""],
+    "pga22": ["pga22\\pga_22.safetensors", "modelshoot style"],
+    "sd1": ["sd1\\sd15-pruned-ema.ckpt", ""]
+  },
+
+  "models_sd2x": {
+    "sd2": ["sd2\\sd20-512-depth-ema.ckpt", ""]
+  },
+
+  "models_sd1x_lora": {
+    "多彩": 0,
+    "线稿": 0,
+    "大头3D": 0,
+    "大头2D": 0,
+    "玻璃": 0,
+    "温暖": 0,
+    "矢量艺术": 0,
+    "线条阴影": 0,
+    "土豆泥": 0,
+    "猫眼圆手": 0,
+    "定格3D": 0
+  }
+}

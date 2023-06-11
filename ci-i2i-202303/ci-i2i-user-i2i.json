@@ -1,0 +1,19 @@
+{
+  "user_+_prompt": "",
+  "user_-_prompt": "",
+  "n_batch": 1,
+  "creative": "中",
+  "user_sys_conf": "基准",
+  "user_imgs": {
+    "内容": "F:\\_workflow\\tmp\\test\\bj\\bj.jpg",
+    "风格": "",
+    "配色": "",
+    "布局": "",
+    "细节": "",
+    "轮廓": "",
+    "法线": "",
+    "草图": "",
+    "分割图": "",
+    "人物姿势": ""
+  }
+}
